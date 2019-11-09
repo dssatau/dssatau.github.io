@@ -1,27 +1,31 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
+  background-color: $white-900;
   background-repeat: no-repeat;
   background-position: center;
   .section-heading {
-    color: $white;
+    color: $black;
   }
-  +-bottom: 25px;
-    input,
-    textarea {
-      padding: 20px;
+  
+  // Styling for the team section
+  .team-member {
+    margin-bottom: 50px;
+    text-align: center;
+    img {
+      width: 225px;
+      height: 225px;
+      border: 7px solid fade-out($black, 0.9);
     }
-    input.form-control {
-      height: auto;
+    h4 {
+      margin-top: 25px;
+      margin-bottom: 0;
+      text-transform: none;
     }
-    textarea.form-control {
-      height: 248px;
+    p {
+      margin-top: 0;
     }
   }
-  .form-control:focus {
-    border-color: $primary;
-    box-shadow: none;
-  }
+
   ::-webkit-input-placeholder {
     font-weight: 700;
     color: $gray-400;
