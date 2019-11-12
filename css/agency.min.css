@@ -14,7 +14,8 @@
   }
 
   .navbar-brand img {
-    width: 100px;
+    width: 100px
+    margin-bottom: 1rem;
   }
 
   .navbar-collapse {
